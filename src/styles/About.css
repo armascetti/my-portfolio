@@ -1,0 +1,27 @@
+.technical-about {
+  box-shadow: 10px 5px 5px #85144b;
+  width: 1000px;
+  margin-top: 8%;
+  margin-left: 8%;
+  margin-bottom: 8%;
+  height: 210px;
+  background-color: blanchedalmond;
+}
+
+.technical-about:hover {
+  background-color: #85144b;
+  color: white;
+  box-shadow:blanchedalmond;
+}
+.nontechnical-about {
+  box-shadow: 10px 5px 5px #85144b;
+  width: 1000px;
+  height: 240px;
+  margin-left: 8%;
+  background-color: blanchedalmond;
+}
+
+.nontechnical-about:hover {
+  background-color: #85144b;
+  color: white;
+}
