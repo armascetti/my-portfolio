@@ -1,25 +1,30 @@
 import React from 'react';
 import NavBar from './Navbar';
-import Animation from './Animation'
-import phone from '../assets/animation/phone.json'
-import Pdf from '../Documents/ArmascettiResume.pdf'
+import '../styles/ContactInfo.css';
 
 export default function Contact() {
   return (
     <>
       <NavBar />
-      <h1>Here is Where You Can Reach Me: </h1>
-      <div className='phone'>
-        <p>Phone: 301-325-0747</p>
-      </div>
-      <div className='email'>
-        <p>Email: armascetti@gmail.com</p>
-      </div>
-      <div className='github'>
-        <a href="https://github.com/armascetti" target="_blank" rel="noreferrer">GitHub</a>
-      </div>
-      <a href={Pdf} target="_blank" rel="noreferrer">Download Resume</a>
-      <Animation animData={phone}></Animation>
+      <section className="contact-section" id="contact">
+  <p className="eyebrow">Contact</p>
+  <h2>Let’s Connect</h2>
+
+  <p>
+    I’m open to software engineering opportunities, especially full-stack,
+    AI-integrated, and cleared roles.
+  </p>
+
+  <div className="contact-links">
+    <a href="mailto:armascetti@gmail.com">Email Me</a>
+    <a href="https://www.linkedin.com/in/mandy-mascetti/" target="_blank" rel="noreferrer">
+      LinkedIn
+    </a>
+    <a href="https://github.com/armascetti" target="_blank" rel="noreferrer">
+      GitHub
+    </a>
+  </div>
+</section>
     </>
   )
 }
