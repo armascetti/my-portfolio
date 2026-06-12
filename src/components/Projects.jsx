@@ -11,45 +11,48 @@ export default function Projects() {
     <>
       <NavBar />
       <div className='projects-container'>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img style={{ height: "140px", padding: "8%" }} src={connectFour} alt="connect-four" />
+        <div className="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img className="project-img" src={connectFour} alt="connect-four" />
             </div>
-            <div class="flip-card-back">
-              <a style={{ color: "ivory" }} href="https://flamboyant-jones-f31ba0.netlify.app/"> Connect-Four</a>
+            <div className="flip-card-back">
+              <a href="https://flamboyant-jones-f31ba0.netlify.app/">Connect-Four</a>
               <h5> Javascript | HTML | CSS </h5>
             </div>
           </div>
         </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img style={{ height: "140px", padding: "8%" }} src={meme} alt="meme" /></div>
-            <div class="flip-card-back">
-              <a style={{ color: "ivory" }} href="https://meme-master.herokuapp.com/allMemes"> Meme-Masters! </a>
+        <div className="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img className="project-img" src={meme} alt="meme" /></div>
+            <div className="flip-card-back">
+              <div className="project-title">Meme-Masters</div>
+              <a className="repo-link" href="https://github.com/armascetti/Meme-Masters.git">Repo</a>
               <h5> MongoDB | Node.js | Express.js | Meme API </h5>
             </div>
           </div>
         </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img style={{ height: "140px", padding: "8%" }} src={spacey} alt="spacey" /></div>
-            <div class="flip-card-back">
-              <a style={{ color: "ivory" }} href="https://spacey-space.herokuapp.com/">Spacey</a>
+        <div className="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img className="project-img" src={spacey} alt="spacey" /></div>
+            <div className="flip-card-back">
+              <div className="project-title">Spacey</div>
+              <a className="repo-link" href="https://github.com/armascetti/Spacey.git">Repo</a>
               <h5>Python | Django | PostgreSQL | NASA APOD API </h5>
             </div>
           </div>
         </div>
 
 
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img style={{ height: "140px", padding: "8%" }} src={marvel} alt="spacey" /></div>
-            <div class="flip-card-back">
-              <a style={{ color: "ivory" }} href="https://make-your-marvel.herokuapp.com/"> Make Your Marvel</a>
+        <div className="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img className="project-img" src={marvel} alt="spacey" /></div>
+            <div className="flip-card-back">
+              <div className="project-title">Make Your Marvel</div>
+              <a className="repo-link" href="https://github.com/armascetti/make-your-marvel.git">Repo</a>
               <h5>Node.JS | MongoDB | JavaScript | React |Sass |  Marvel API | Express.js </h5>
             </div>
           </div>

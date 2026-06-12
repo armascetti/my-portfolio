@@ -15,9 +15,10 @@ const App = () => {
           <About />
         </div>
         <div className="family">
-          <div class="fancy-border">
-            <img style={{ height: "550px", width: "400px" }} src={family} alt="the fam" />
-          </div></div>
+          <div className="fancy-border">
+            <img className="family-img" src={family} alt="the fam" />
+          </div>
+        </div>
       </div>
     </>
   )
