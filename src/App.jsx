@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import family from './Images/family.png'
+import family from './Images/family.jpg'
 import About from './components/About'
 import NavBar from './components/Navbar';
 
