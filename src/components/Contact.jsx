@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './Navbar';
 import '../styles/ContactInfo.css';
+import Resume from '../Documents/ArmascettiResume.pdf';
 
 export default function Contact() {
   return (
@@ -22,6 +23,9 @@ export default function Contact() {
     </a>
     <a href="https://github.com/armascetti" target="_blank" rel="noreferrer">
       GitHub
+    </a>
+    <a href={Resume} download="ArmascettiResume.pdf">
+      Download Resume
     </a>
   </div>
 </section>

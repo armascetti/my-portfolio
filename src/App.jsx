@@ -22,11 +22,6 @@ const App = () => {
             Former educator turned software engineer with a people-first mindset,
             strong problem-solving skills, and an Active Top Secret Security Clearance.
           </p>
-
-          <div className="hero-buttons">
-            <a href="#projects">View Projects</a>
-            <a href="#contact" className="secondary-btn">Contact Me</a>
-          </div>
         </section>
 <section className="hero-image">
   <div className="profile-card">
